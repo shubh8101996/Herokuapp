@@ -12,6 +12,9 @@ public class HomePageClass {
 	@FindBy (xpath="//a[text()='Basic Auth']")
 	private WebElement BasicAuth;
 	
+	@FindBy (xpath = "//a[text()='Dropdown']")
+    private WebElement Dropdown;
+	
 	
 	public HomePageClass(WebDriver driver) {
 		
@@ -20,10 +23,22 @@ public class HomePageClass {
 	}
 	
 	
+	
+	
 	public void Click() {
 		
 		BasicAuth.click();
+		
 	}
+	
+      public void DropDown_Click() {
+		
+		Dropdown.click();
+	}
+
+	
+	
+	
 	
 	
 	

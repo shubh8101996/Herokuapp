@@ -4,14 +4,15 @@ import org.testng.annotations.Test;
 
 import com.BaseClass.BaseClass;
 import com.PageClass.Dropdown_Page;
+import com.PageClass.HomePageClass;
 
 public class TestCaseNo2 extends BaseClass {
 	
 	@Test
 	public void dropdown() {
 		
-		Dropdown_Page dp=new Dropdown_Page(driver);
-		dp.click();
+		HomePageClass dp=new HomePageClass(driver);
+		dp.DropDown_Click();
 		
 	}
 	

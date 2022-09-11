@@ -10,8 +10,7 @@ public class Dropdown_Page {
 	
 	static WebDriver driver;
 	
-	@FindBy (xpath = "//a[text()='Dropdown']")
-     private WebElement Dropdown;
+
 	
 	
 	
@@ -21,9 +20,5 @@ public class Dropdown_Page {
 		
 	}
 	
-	public void click() {
 		
-		Dropdown.click();
-	}
-	
 }
