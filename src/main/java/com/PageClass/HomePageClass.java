@@ -15,12 +15,21 @@ public class HomePageClass {
 	@FindBy (xpath = "//a[text()='Dropdown']")
     private WebElement Dropdown;
 	
+	@FindBy (xpath = "//a[text() =  'Checkboxes']")
+	WebElement checkbox;
+	
 	
 	public HomePageClass(WebDriver driver) {
 		
 		PageFactory.initElements(driver, this);
 		
 	}
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -35,11 +44,9 @@ public class HomePageClass {
 		
 		Dropdown.click();
 	}
-
-	
-	
-	
-	
+public void  Checkbox_click() {
+	checkbox.click();
+}
 	
 	
 	

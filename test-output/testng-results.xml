@@ -2,12 +2,21 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< Updated upstream
   <suite started-at="2022-09-11T14:57:05 IST" name="Default suite" finished-at="2022-09-11T14:57:44 IST" duration-ms="39083">
     <groups>
     </groups>
     <test started-at="2022-09-11T14:57:05 IST" name="Default test" finished-at="2022-09-11T14:57:44 IST" duration-ms="39083">
       <class name="com.TestClass.TestCaseNo2">
         <test-method is-config="true" signature="BrowserOpen(java.lang.String)[pri:0, instance:com.TestClass.TestCaseNo2@4a883b15]" started-at="2022-09-11T14:57:05 IST" name="BrowserOpen" finished-at="2022-09-11T14:57:44 IST" duration-ms="38889" status="PASS">
+=======
+  <suite started-at="2022-09-11T15:12:03 IST" name="Default suite" finished-at="2022-09-11T15:12:26 IST" duration-ms="23116">
+    <groups>
+    </groups>
+    <test started-at="2022-09-11T15:12:03 IST" name="Default test" finished-at="2022-09-11T15:12:26 IST" duration-ms="23116">
+      <class name="com.TestClass.TestCaseNo3">
+        <test-method is-config="true" signature="BrowserOpen(java.lang.String)[pri:0, instance:com.TestClass.TestCaseNo3@17f62e33]" started-at="2022-09-11T15:12:03 IST" name="BrowserOpen" finished-at="2022-09-11T15:12:25 IST" duration-ms="22102" status="PASS">
+>>>>>>> Stashed changes
           <params>
             <param index="0">
               <value>
@@ -18,6 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserOpen -->
+<<<<<<< Updated upstream
         <test-method signature="dropdown()[pri:0, instance:com.TestClass.TestCaseNo2@4a883b15]" started-at="2022-09-11T14:57:44 IST" name="dropdown" finished-at="2022-09-11T14:57:44 IST" duration-ms="85" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
@@ -93,10 +103,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- dropdown -->
         <test-method is-config="true" signature="BrowserClosed()[pri:0, instance:com.TestClass.TestCaseNo2@4a883b15]" started-at="2022-09-11T14:57:44 IST" name="BrowserClosed" finished-at="2022-09-11T14:57:44 IST" duration-ms="1" status="PASS">
+=======
+        <test-method signature="check()[pri:0, instance:com.TestClass.TestCaseNo3@17f62e33]" started-at="2022-09-11T15:12:25 IST" name="check" finished-at="2022-09-11T15:12:26 IST" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method is-config="true" signature="BrowserClosed()[pri:0, instance:com.TestClass.TestCaseNo3@17f62e33]" started-at="2022-09-11T15:12:26 IST" name="BrowserClosed" finished-at="2022-09-11T15:12:26 IST" duration-ms="1" status="PASS">
+>>>>>>> Stashed changes
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserClosed -->
-      </class> <!-- com.TestClass.TestCaseNo2 -->
+      </class> <!-- com.TestClass.TestCaseNo3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
