@@ -27,7 +27,7 @@ public class Dropdown_Page {
 	 
 	 DropDown_Handle.click();
 	 Select s=new Select(DropDown_Handle);
-	 s.selectByValue("2");
+	 s.selectByVisibleText("Option 2");
 	 
  }
  
