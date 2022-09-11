@@ -1,0 +1,3 @@
+git stash
+git pull <remote name> <remote branch name> (or) switch branch
+git stash apply --index
