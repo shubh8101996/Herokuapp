@@ -8,10 +8,10 @@ import java.util.Properties;
 public class ReadConfig {
 	
 	Properties prop;
-	String path="C:\\Users\\shubh\\eclipse-workspace\\HerokuAppProject\\ConfigFiles\\config.properties";
+	String path=System.getProperty("user.dir")+"\\ConfigFiles\\config.properties";
 
 	
-	ReadConfig() {
+	public ReadConfig() {
 		
 		try {
 		 prop=new Properties();

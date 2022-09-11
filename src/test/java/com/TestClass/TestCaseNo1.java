@@ -1,7 +1,22 @@
 package com.TestClass;
 
-public class TestCaseNo1 {
+import org.testng.annotations.Test;
+
+import com.BaseClass.BaseClass;
+import com.PageClass.HomePageClass;
+
+public class TestCaseNo1 extends BaseClass {
 	
+	
+	
+	@Test
+	public void BasicAuth() {
+		
+		HomePageClass h=new HomePageClass(driver);
+        h.Click();		 
+		
+		
+	}
 	
 
 }

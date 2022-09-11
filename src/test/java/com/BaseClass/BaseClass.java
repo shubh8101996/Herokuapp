@@ -14,14 +14,14 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
 	
-	WebDriver driver;
+	public WebDriver driver;
 	
-	ReadConfig read;
+	ReadConfig read=new ReadConfig();
 	
-
-	
+	String mainUrl=read.getUrl();
+	@Parameters({"browser"})
 	@BeforeTest
-	public void BrowserOpen(String searchKey, String browser) {
+	public void BrowserOpen(@Optional("chrome")String browser) {
 		
       if(browser.equalsIgnoreCase("chrome")) {
 			
@@ -48,6 +48,7 @@ public class BaseClass {
 		}
       
       	driver.manage().window().maximize();
+      	driver.get(mainUrl);
       	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		
 	}
@@ -57,7 +58,7 @@ public class BaseClass {
 	@AfterTest
 	public void BrowserClosed() {
 		
-		driver.quit();
+//		driver.quit();
 		
 		
 	}
