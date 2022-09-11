@@ -14,6 +14,9 @@ public class TestCaseNo2 extends BaseClass {
 		HomePageClass dp=new HomePageClass(driver);
 		dp.DropDown_Click();
 		
+		Dropdown_Page dp1=new Dropdown_Page(driver);
+		dp1.Drop_Down();
+		
 	}
 	
 	
