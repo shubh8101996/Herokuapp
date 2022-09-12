@@ -13,8 +13,7 @@ public class TestCaseNo1 extends BaseClass {
 	public void BasicAuth() {
 		
 		HomePageClass h=new HomePageClass(driver);
-        h.Click();		 
-		
+         h.ElementClick(h.BasicAuth);		
 		
 	}
 	

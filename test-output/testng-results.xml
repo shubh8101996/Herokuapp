@@ -2,29 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-  <suite started-at="2022-09-11T14:57:05 IST" name="Default suite" finished-at="2022-09-11T14:57:44 IST" duration-ms="39083">
-=======
-  <suite started-at="2022-09-11T15:00:05 IST" name="Default suite" finished-at="2022-09-11T15:00:21 IST" duration-ms="16169">
->>>>>>> Stashed changes
+  <suite started-at="2022-09-12T10:57:09 IST" name="Default suite" finished-at="2022-09-12T10:57:51 IST" duration-ms="41228">
     <groups>
     </groups>
-    <test started-at="2022-09-11T15:00:05 IST" name="Default test" finished-at="2022-09-11T15:00:21 IST" duration-ms="16169">
-      <class name="com.TestClass.TestCaseNo2">
-<<<<<<< Updated upstream
-        <test-method is-config="true" signature="BrowserOpen(java.lang.String)[pri:0, instance:com.TestClass.TestCaseNo2@4a883b15]" started-at="2022-09-11T14:57:05 IST" name="BrowserOpen" finished-at="2022-09-11T14:57:44 IST" duration-ms="38889" status="PASS">
-=======
-  <suite started-at="2022-09-11T15:12:03 IST" name="Default suite" finished-at="2022-09-11T15:12:26 IST" duration-ms="23116">
-    <groups>
-    </groups>
-    <test started-at="2022-09-11T15:12:03 IST" name="Default test" finished-at="2022-09-11T15:12:26 IST" duration-ms="23116">
-      <class name="com.TestClass.TestCaseNo3">
-        <test-method is-config="true" signature="BrowserOpen(java.lang.String)[pri:0, instance:com.TestClass.TestCaseNo3@17f62e33]" started-at="2022-09-11T15:12:03 IST" name="BrowserOpen" finished-at="2022-09-11T15:12:25 IST" duration-ms="22102" status="PASS">
->>>>>>> Stashed changes
-=======
-        <test-method is-config="true" signature="BrowserOpen(java.lang.String)[pri:0, instance:com.TestClass.TestCaseNo2@1caa0244]" started-at="2022-09-11T15:00:05 IST" name="BrowserOpen" finished-at="2022-09-11T15:00:20 IST" duration-ms="14917" status="PASS">
->>>>>>> Stashed changes
+    <test started-at="2022-09-12T10:57:09 IST" name="Default test" finished-at="2022-09-12T10:57:51 IST" duration-ms="41228">
+      <class name="com.TestClass.TestCaseNo1">
+        <test-method is-config="true" signature="BrowserOpen(java.lang.String)[pri:0, instance:com.TestClass.TestCaseNo1@4a883b15]" started-at="2022-09-12T10:57:09 IST" name="BrowserOpen" finished-at="2022-09-12T10:57:49 IST" duration-ms="39283" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,101 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserOpen -->
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        <test-method signature="dropdown()[pri:0, instance:com.TestClass.TestCaseNo2@4a883b15]" started-at="2022-09-11T14:57:44 IST" name="dropdown" finished-at="2022-09-11T14:57:44 IST" duration-ms="85" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=105.0.5195.102)
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-O3CNH6A', ip: '192.168.2.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d4a6aa2643ccdaf00910b999a9722b95, findElement {using=xpath, value=//a[text()='Dropdown']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\shubh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56510}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56510/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d4a6aa2643ccdaf00910b999a9722b95]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=105.0.5195.102)
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-O3CNH6A', ip: '192.168.2.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d4a6aa2643ccdaf00910b999a9722b95, findElement {using=xpath, value=//a[text()='Dropdown']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\shubh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56510}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56510/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d4a6aa2643ccdaf00910b999a9722b95
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-at com.PageClass.HomePageClass.DropDown_Click(HomePageClass.java:36)
-at com.TestClass.TestCaseNo2.dropdown(TestCaseNo2.java:15)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+        <test-method signature="BasicAuth()[pri:0, instance:com.TestClass.TestCaseNo1@4a883b15]" started-at="2022-09-12T10:57:49 IST" name="BasicAuth" finished-at="2022-09-12T10:57:51 IST" duration-ms="1874" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dropdown -->
-        <test-method is-config="true" signature="BrowserClosed()[pri:0, instance:com.TestClass.TestCaseNo2@4a883b15]" started-at="2022-09-11T14:57:44 IST" name="BrowserClosed" finished-at="2022-09-11T14:57:44 IST" duration-ms="1" status="PASS">
-=======
-        <test-method signature="check()[pri:0, instance:com.TestClass.TestCaseNo3@17f62e33]" started-at="2022-09-11T15:12:25 IST" name="check" finished-at="2022-09-11T15:12:26 IST" duration-ms="946" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- check -->
-        <test-method is-config="true" signature="BrowserClosed()[pri:0, instance:com.TestClass.TestCaseNo3@17f62e33]" started-at="2022-09-11T15:12:26 IST" name="BrowserClosed" finished-at="2022-09-11T15:12:26 IST" duration-ms="1" status="PASS">
->>>>>>> Stashed changes
-=======
-        <test-method signature="dropdown()[pri:0, instance:com.TestClass.TestCaseNo2@1caa0244]" started-at="2022-09-11T15:00:20 IST" name="dropdown" finished-at="2022-09-11T15:00:21 IST" duration-ms="1015" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dropdown -->
-        <test-method is-config="true" signature="BrowserClosed()[pri:0, instance:com.TestClass.TestCaseNo2@1caa0244]" started-at="2022-09-11T15:00:21 IST" name="BrowserClosed" finished-at="2022-09-11T15:00:21 IST" duration-ms="0" status="PASS">
->>>>>>> Stashed changes
+        </test-method> <!-- BasicAuth -->
+        <test-method is-config="true" signature="BrowserClosed()[pri:0, instance:com.TestClass.TestCaseNo1@4a883b15]" started-at="2022-09-12T10:57:51 IST" name="BrowserClosed" finished-at="2022-09-12T10:57:51 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserClosed -->
-      </class> <!-- com.TestClass.TestCaseNo3 -->
+      </class> <!-- com.TestClass.TestCaseNo1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
