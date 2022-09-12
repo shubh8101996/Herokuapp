@@ -24,22 +24,6 @@ public class HomePageClass {
 
 	}
 
-	public void Click() {
-
-		BasicAuth.click();
-
-	}
-
-	public void DropDown_Click() {
-
-		Dropdown.click();
-	}
-
-	public void Checkbox_click() {
-		checkbox.click();
-	}
-	
-	
 	public void ElementClick(WebElement element) {
 		if (element.isDisplayed()) {
 			element.click();
