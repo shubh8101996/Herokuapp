@@ -33,6 +33,13 @@ public class ReadConfig {
 		return getUrl;
 		
 	}
+
+	public String getBrowser() {
+		
+		String browser=prop.getProperty("browser");
+		
+		return browser;
+	}
 	
 
 }

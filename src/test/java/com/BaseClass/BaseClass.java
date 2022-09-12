@@ -58,7 +58,7 @@ public class BaseClass {
 	@AfterTest
 	public void BrowserClosed() {
 		
-//		driver.quit();
+		driver.quit();
 		
 		
 	}
