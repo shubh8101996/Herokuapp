@@ -3,5 +3,8 @@
 git init
 git clone "url"
 
+
 git push -u origin master (push)
 git pull origin master (pull)
+
+
