@@ -1,0 +1,4 @@
+#all git command are here
+
+git init
+git clone "url"
