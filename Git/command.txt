@@ -11,4 +11,7 @@ git pull origin master (pull)
 this is shubham shedge
 
 
+git conflict (How to solve)
+
+
 
