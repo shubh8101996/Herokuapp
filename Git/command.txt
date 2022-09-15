@@ -7,4 +7,4 @@ git clone "url"
 git push -u origin master (push)
 git pull origin master (pull)
 
-
+this is shubham shedge
