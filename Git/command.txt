@@ -13,5 +13,7 @@ this is shubham shedge
 
 git conflict (How to solve)
 
+I think conflict is not sloved
+
 
 
