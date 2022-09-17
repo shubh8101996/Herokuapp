@@ -1,3 +1,6 @@
 hi this is my file
 
-i now i want perform some rebase operation here first i perform merge operation and then reabse
+i now i want perform some rebase operation here first i perform merge 
+operation and then reabse
+
+not i want really perform rebase operation
