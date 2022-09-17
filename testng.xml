@@ -6,9 +6,9 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
+          <class name="com.TestClass.TestCaseNo1"/>
       <class name="com.TestClass.TestCaseNo2"/>
      <class name="com.TestClass.TestCaseNo3"/> 
-      <class name="com.TestClass.TestCaseNo1"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -18,7 +18,7 @@ public class Dropdown_Page {
 	
 	
 	public Dropdown_Page(WebDriver driver){
-		
+		this.driver=driver;
 		PageFactory.initElements(driver, this);
 		
 	}

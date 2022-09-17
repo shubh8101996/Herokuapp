@@ -19,6 +19,7 @@ public class HomePageClass {
 	public WebElement checkbox;
 
 	public HomePageClass(WebDriver driver) {
+		this.driver=driver;
 
 		PageFactory.initElements(driver, this);
 

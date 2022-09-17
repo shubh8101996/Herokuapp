@@ -6,23 +6,25 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class CheckboxClass {
-static WebDriver driver;
-	@FindBy (xpath = "//input[@type = \"checkbox\"][1]" )
+	
+	
+	static WebDriver driver;
+	
+	
+	@FindBy(xpath = "//input[@type = \"checkbox\"][1]")
 	private WebElement checkbox1;
-	
-	@FindBy (xpath = "//input[@type = \"checkbox\"][2]" )
+
+	@FindBy(xpath = "//input[@type = \"checkbox\"][2]")
 	private WebElement checkbox2;
-	
-	
+
 	public CheckboxClass(WebDriver driver) {
-		// TODO Auto-generated constructor stub
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	
+
 	public void checkboxoperation() {
 		checkbox1.click();
-		
+
 	}
-	
-	
+
 }
