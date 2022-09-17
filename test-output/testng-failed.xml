@@ -6,20 +6,6 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.TestClass.TestCaseNo3">
-        <methods>
-          <include name="BrowserOpen"/>
-          <include name="BrowserClosed"/>
-          <include name="check"/>
-        </methods>
-      </class> <!-- com.TestClass.TestCaseNo3 -->
-      <class name="com.TestClass.TestCaseNo1">
-        <methods>
-          <include name="BasicAuth"/>
-          <include name="BrowserOpen"/>
-          <include name="BrowserClosed"/>
-        </methods>
-      </class> <!-- com.TestClass.TestCaseNo1 -->
       <class name="com.TestClass.TestCaseNo2">
         <methods>
           <include name="BrowserOpen"/>
@@ -27,6 +13,13 @@
           <include name="BrowserClosed"/>
         </methods>
       </class> <!-- com.TestClass.TestCaseNo2 -->
+      <class name="com.TestClass.TestCaseNo3">
+        <methods>
+          <include name="BrowserOpen"/>
+          <include name="BrowserClosed"/>
+          <include name="check"/>
+        </methods>
+      </class> <!-- com.TestClass.TestCaseNo3 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

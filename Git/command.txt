@@ -8,3 +8,12 @@ git push -u origin master (push)
 git pull origin master (pull)
 
 
+this is shubham shedge
+
+
+git conflict (How to solve)
+
+I think conflict is not sloved
+
+
+
